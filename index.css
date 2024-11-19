@@ -1,0 +1,17 @@
+#para{
+    border:2px solid black;
+    width:30px;
+
+}
+#para div {
+    border:2px solid green;
+    margin:5px;
+}
+
+ul{
+    display:none;
+}
+
+#para:active ~ ul {
+    display: block;;
+}
